@@ -2,16 +2,11 @@ import ShopItem from '@/components/shop-item';
 import ShopItemInfo from '@/components/shop-item-info';
 import React, { useState } from 'react';
 import { ScrollView, StyleSheet, View } from 'react-native';
-import miniPC from '../assets/images/desk/Blue-desk-mini-comp.png';
-import poster from '../assets/images/desk/Desk-wall-photos.png';
-import photo from '../assets/images/desk/White-frame-desk-photo.png';
+import miniPC from '../assets/images/desk/blue-desk-mini-comp.png';
+import poster from '../assets/images/desk/desk-wall-photos.png';
+import photo from '../assets/images/desk/white-frame-desk-photo.png';
 import CustomHeader from '../components/banner';
 import Tabs from '../components/tabs';
-<<<<<<< Updated upstream
-=======
-import { imageMap } from "../scripts/image-map";
-import { db } from "../src/firebase/config";
->>>>>>> Stashed changes
 
 const DeskShop = () => {
 

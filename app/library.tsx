@@ -1,15 +1,9 @@
 import AddBook from '@/components/add-book';
 import CustomHeader from '@/components/banner';
-<<<<<<< Updated upstream
 import ViewBook from '@/components/library-book-info';
 import React, { useMemo, useState } from 'react';
 import { Dimensions, Image, Modal, Pressable, ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
 import plusIcon from '../assets/images/plusIcon.png';
-=======
-import React, { useState } from 'react';
-import { Image, StyleSheet, View } from 'react-native';
-import plusIcon from '../assets/images/plusicon.svg';
->>>>>>> Stashed changes
 
 const Library = () => {
 

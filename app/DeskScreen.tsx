@@ -1,16 +1,14 @@
 import { auth, db } from '@/src/firebase/config';
+import { refreshCurrentUserStreak } from '@/src/firebase/users';
 import { Asset } from 'expo-asset';
 import { Stack, useRouter } from 'expo-router';
 import { doc, onSnapshot } from 'firebase/firestore';
-<<<<<<< Updated upstream
-import { refreshCurrentUserStreak } from '@/src/firebase/users';
-=======
 import React, { useEffect, useState } from 'react';
 import { Image, Text, TouchableOpacity, View } from "react-native";
 import { ImgButton, NavButton } from '../components/buttons/navButtons';
 import JournalModal from '../components/JournalModal';
 import { Sidebar } from './Sidebar';
->>>>>>> Stashed changes
+
 
 export default function DeskScreen() {
     const router = useRouter();

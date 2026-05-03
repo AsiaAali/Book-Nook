@@ -1,14 +1,14 @@
+import { getCurrentUserProfile, updateCurrentUserProfile } from '@/src/firebase/profile';
 import { Link, useNavigation } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import { Image, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
-import backArrow from '../assets/images/Arrow-left-circle.png';
+import backArrow from '../assets/images/arrow-left-circle.png';
 import editIcon from '../assets/images/pencil.png';
 import pfp1 from '../assets/images/pfp.jpg';
 import gearIcon from '../assets/images/settings.png';
 import sticker2 from '../assets/stickers/first-entry.png';
 import sticker1 from '../assets/stickers/first-friend.png';
 import Goal from '../components/profile-goal';
-import { getCurrentUserProfile, updateCurrentUserProfile } from '@/src/firebase/profile';
 
 const Profile = () => {
 

@@ -1,9 +1,9 @@
-import { useNavigation, useRouter } from 'expo-router';
-import React, { useEffect, useState } from 'react';
-import { Image, Text, TouchableOpacity, View, ImageSourcePropType } from 'react-native';
-import { Drawer } from 'react-native-drawer-layout';
 import { auth, db } from '@/src/firebase/config';
+import { useRouter } from 'expo-router';
 import { doc, onSnapshot } from 'firebase/firestore';
+import React, { useEffect, useState } from 'react';
+import { Image, Text, TouchableOpacity, View } from 'react-native';
+import { Drawer } from 'react-native-drawer-layout';
  
 type SidebarProps = {
     children: React.ReactNode;
@@ -62,7 +62,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ children }) => {
 
         {/* currentStreak display */}
         <View>
-            <Image source={require('../assets/images/Star.png')} className="absolute top-[31px] left-24 w-7 h-7" resizeMode="contain"/>
+            <Image source={require('../assets/images/star.png')} className="absolute top-[31px] left-24 w-7 h-7" resizeMode="contain"/>
             <Text className="absolute top-[315px] left-32 text-center text-xl text-brown">{currentStreak ? currentStreak : 0}</Text>
             <Text className="absolute top-[345px] left-24 text-xl text-brown">streak</Text>
         </View>
