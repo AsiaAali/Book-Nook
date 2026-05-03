@@ -1,0 +1,48 @@
+export const imageMap = {
+
+  "desk/desk-bunny.png": require("../assets/images/desk/desk-bunny.png"),
+  "desk/blue-desk-mini-comp.png": require("../assets/images/desk/blue-desk-mini-comp.png"),
+  "desk/plain-solid.png": require("../assets/images/desk/plain-solid.png"),
+  "desk/desk-radio.png": require("../assets/images/desk/desk-radio.png"),
+  "desk/white-frame-desk-photo.png": require("../assets/images/desk/white-frame-desk-photo.png"),
+  "desk/purple-desk-mini-comp.png": require("../assets/images/desk/purple-desk-mini-comp.png"),
+  "desk/green-desk-mini-comp.png": require("../assets/images/desk/green-desk-mini-comp.png"),
+  "desk/desk-flower-lamp.png": require("../assets/images/desk/desk-flower-lamp.png"),
+  "desk/desk-wall-photos.png": require("../assets/images/desk/desk-wall-photos.png"),
+  "desk/desk-wallpaper-2.png": require("../assets/images/desk/desk-wallpaper-2.png"),
+  "desk/pink-desk-mini-comp.png": require("../assets/images/desk/pink-desk-mini-comp.png"),
+  "desk/desk-plant-peacelily.png": require("../assets/images/desk/desk-plant-peacelily.png"),
+  "desk/desk-wallpaper-1.png": require("../assets/images/desk/desk-wallpaper-1.png"),
+  "desk/desk-plant-aglaonema.png": require("../assets/images/desk/desk-plant-aglaonema.png"),
+  "desk/desk-monstera.png": require("../assets/images/desk/desk-monstera.png"),
+
+
+  "bedroom/br-checker-bed-pink.png": require("../assets/images/bedroom/br-checker-bed-pink.png"),
+  "bedroom/br-checker-bed-blue.png": require("../assets/images/bedroom/br-checker-bed-blue.png"),
+  "bedroom/br-floor-wood-grey.png": require("../assets/images/bedroom/br-floor-wood-grey.png"),
+  "bedroom/br-floor-wood-medium.png": require("../assets/images/bedroom/br-floor-wood-medium.png"),
+  "bedroom/br-flower-photo.png": require("../assets/images/bedroom/br-flower-photo.png"),
+  "bedroom/br-coffee-table.png": require("../assets/images/bedroom/br-coffee-table.png"),
+  "bedroom/br-frilly-bed-red.png": require("../assets/images/bedroom/br-frilly-bed-red.png"),
+  "bedroom/br-checker-bed-orange.png": require("../assets/images/bedroom/br-checker-bed-orange.png"),
+  "bedroom/br-floor-wood-dark.png": require("../assets/images/bedroom/br-floor-wood-dark.png"),
+  "bedroom/br-frilly-bed-green.png": require("../assets/images/bedroom/br-frilly-bed-green.png"),
+  "bedroom/br-floor-wood-light.png": require("../assets/images/bedroom/br-floor-wood-light.png"),
+  "bedroom/br-bookshelf.png": require("../assets/images/bedroom/br-bookshelf.png"),
+  "bedroom/br-frilly-bed-pink.png": require("../assets/images/bedroom/br-frilly-bed-pink.png"),
+  "bedroom/br-frilly-bed-blue.png": require("../assets/images/bedroom/br-frilly-bed-blue.png"),
+  "bedroom/br-checker-bed-green.png": require("../assets/images/bedroom/br-checker-bed-green.png"),
+  "bedroom/br-circle-rug.png": require("../assets/images/bedroom/br-circle-rug.png"),
+  "bedroom/br-bow-photo.png": require("../assets/images/bedroom/br-bow-photo.png"),
+  "bedroom/br-bookshelf-plain.png": require("../assets/images/bedroom/br-bookshelf-plain.png"),
+  "bedroom/br-bookshelf-white.png": require("../assets/images/bedroom/br-bookshelf-white.png"),
+  "bedroom/br-square-rug-darkblue.png": require("../assets/images/bedroom/br-square-rug-darkblue.png"),
+  "bedroom/br-square-rug-orange.png": require("../assets/images/bedroom/br-square-rug-orange.png"),
+  "bedroom/br-square-rug-lightblue.png": require("../assets/images/bedroom/br-square-rug-lightblue.png"),
+  "bedroom/br-square-rug-green.png": require("../assets/images/bedroom/br-square-rug-green.png"),
+  "bedroom/br-plain-bed.png": require("../assets/images/bedroom/br-plain-bed.png"),
+  "bedroom/br-plain-table.png": require("../assets/images/bedroom/br-plain-table.png"),
+
+
+
+};

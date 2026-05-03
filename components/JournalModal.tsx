@@ -1,13 +1,13 @@
-import { useState } from "react";
-import { Modal, View, Text, Pressable, Image, Dimensions, TouchableWithoutFeedback, Keyboard, } from "react-native";
 import DateTimePicker from "@react-native-community/datetimepicker";
+import { useState } from "react";
+import { Dimensions, Image, Keyboard, Modal, Pressable, Text, TouchableWithoutFeedback, View, } from "react-native";
+import EditJournalEntryPage from "./EditJournalEntryPage";
+import JournalEntryDetailPage from "./JournalEntryDetailPage";
 import JournalEntryPage from "./JournalEntryPage";
 import PastEntriesPage, { Entry } from "./PastEntriesPage";
-import JournalEntryDetailPage from "./JournalEntryDetailPage";
-import EditJournalEntryPage from "./EditJournalEntryPage";
 import StickersPage from "./StickersPage";
 
-const journalImage = require("../assets/images/Journal-export.png");
+const journalImage = require("../assets/images/journal-export.png");
 
 // get screen width
 const { width } = Dimensions.get("window");

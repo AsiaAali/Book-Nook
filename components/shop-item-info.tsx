@@ -1,7 +1,15 @@
+<<<<<<< Updated upstream
 import React, { useState } from 'react';
 import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
 import backArrow from '../assets/images/Arrow-left-circle.png';
 import gemIcon from '../assets/images/Diamond-red.png';
+=======
+import React, { useEffect, useState } from 'react';
+import { Image, Pressable, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import backArrow from '../assets/images/arrow-left-circle.png';
+import gemIcon from '../assets/images/diamond-red.png';
+import { imageMap } from "../scripts/image-map";
+>>>>>>> Stashed changes
 import FavoriteButton from './favorite-btn';
 
 const ShopItemInfo = ({ selectedItem, onClose, onToggleFavorite, item }) => {

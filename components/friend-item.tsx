@@ -1,8 +1,8 @@
 import { LinearGradient } from 'expo-linear-gradient';
 import React from 'react';
 import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
-import star from '../assets/images/Star.png';
 import dashedLine from '../assets/images/dashed-line.png';
+import star from '../assets/images/star.png';
 
 // Component for find friend page
 

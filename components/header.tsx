@@ -3,7 +3,7 @@ import { Link, useNavigation } from 'expo-router';
 import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
 import Banner from '../assets/images/header.png';
 import menuIcon from '../assets/images/menu.svg';
-import profile from '../assets/images/profileIcon.png';
+import profile from '../assets/images/profileicon.png';
 import Gems from './gems';
 
 export default function CustomHeader() {

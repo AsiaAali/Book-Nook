@@ -1,14 +1,16 @@
-import { Stack, useRouter } from 'expo-router';
-import React, { use, useEffect, useState } from 'react';
-import { Image, TouchableOpacity, View, Text } from "react-native";
-import { ImgButton, NavButton } from '../components/buttons/navButtons';
-import { Sidebar } from './Sidebar';
-import JournalModal from '../components/JournalModal';
-import { Asset } from 'expo-asset';
 import { auth, db } from '@/src/firebase/config';
-import { getUserDocument } from '@/src/firebase/users';
+import { Asset } from 'expo-asset';
+import { Stack, useRouter } from 'expo-router';
 import { doc, onSnapshot } from 'firebase/firestore';
+<<<<<<< Updated upstream
 import { refreshCurrentUserStreak } from '@/src/firebase/users';
+=======
+import React, { useEffect, useState } from 'react';
+import { Image, Text, TouchableOpacity, View } from "react-native";
+import { ImgButton, NavButton } from '../components/buttons/navButtons';
+import JournalModal from '../components/JournalModal';
+import { Sidebar } from './Sidebar';
+>>>>>>> Stashed changes
 
 export default function DeskScreen() {
     const router = useRouter();
@@ -18,7 +20,7 @@ export default function DeskScreen() {
 
     // load journal image into cache for smoother performance when opening journal modal
     useEffect(() => {
-    Asset.loadAsync(require("../assets/images/Journal-export.png"));
+    Asset.loadAsync(require("../assets/images/journal-export.png"));
     Asset.loadAsync(require("../assets/journal-tabs/entry-tab.png"));
     Asset.loadAsync(require("../assets/journal-tabs/past-tab.png"));
     Asset.loadAsync(require("../assets/journal-tabs/stickers-tab.png"));

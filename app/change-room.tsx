@@ -2,14 +2,14 @@ import { Image } from 'expo-image';
 import { Link } from "expo-router";
 import React from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
-import FriendsIcon from '../assets/images/FriendsIcon.svg';
+import FriendsIcon from '../assets/images/friendsicon.svg';
 import CustomHeader from '../components/banner';
 
 const ChangeRoom = () => {
   return (
     <View style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollContainer}>
-        <CustomHeader title="Where to Next?" />
+        <CustomHeader title="Where to Next?" showGems="false" />
       {/*
         will update links for desk and bedroom later
         i also want to try using react-native-view-shot to get

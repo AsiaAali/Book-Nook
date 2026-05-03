@@ -7,6 +7,11 @@ import poster from '../assets/images/desk/Desk-wall-photos.png';
 import photo from '../assets/images/desk/White-frame-desk-photo.png';
 import CustomHeader from '../components/banner';
 import Tabs from '../components/tabs';
+<<<<<<< Updated upstream
+=======
+import { imageMap } from "../scripts/image-map";
+import { db } from "../src/firebase/config";
+>>>>>>> Stashed changes
 
 const DeskShop = () => {
 

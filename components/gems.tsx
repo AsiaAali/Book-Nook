@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
-import gemIcon from '../assets/images/Diamond-red.png';
+import gemIcon from '../assets/images/diamond-red.png';
 
 const Gems = () => {
   return (

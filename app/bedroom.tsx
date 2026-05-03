@@ -2,9 +2,9 @@ import { Image } from 'expo-image';
 import { Link } from 'expo-router';
 import React from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
-import bookshelf from '../assets/images/bedroom/BR-bookshelf-plain.png';
-import bed from '../assets/images/bedroom/Br-checker-bed-pink.png';
-import floor from '../assets/images/bedroom/BR-floor-wood-light.png';
+import bookshelf from '../assets/images/bedroom/br-bookshelf-plain.png';
+import bed from '../assets/images/bedroom/br-checker-bed-pink.png';
+import floor from '../assets/images/bedroom/br-floor-wood-light.png';
 import CustomHeader from '../components/header';
 import LowerNav from '../components/lowerNav';
 
