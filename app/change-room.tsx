@@ -4,7 +4,7 @@ import { Image } from 'expo-image';
 import { Link } from "expo-router";
 import React, { useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
-import FriendsIcon from '../assets/images/FriendsIcon.svg';
+import FriendsIcon from '../assets/images/friendsicon.svg';
 import CustomHeader from '../components/banner';
 
 const ChangeRoom = () => {

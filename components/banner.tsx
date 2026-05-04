@@ -1,7 +1,7 @@
 import { ImageBackground } from 'expo-image';
 import { useNavigation } from 'expo-router';
 import { Dimensions, Image, Pressable, Text, View } from 'react-native';
-import backArrow from '../assets/images/Arrow-left-circle.png';
+import backArrow from '../assets/images/arrow-left-circle.png';
 import Banner from '../assets/images/friends-header.svg';
 import Gems from './gems';
 

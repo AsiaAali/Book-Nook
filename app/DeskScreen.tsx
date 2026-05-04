@@ -8,14 +8,14 @@ import { StickyNote } from '@/components/sticky-note';
 import TransformBar from '@/components/transform-toolbar';
 import { useRoomEditor } from '@/hooks/use-room-editor';
 import { auth, db } from '@/src/firebase/config';
+import { refreshCurrentUserStreak } from '@/src/firebase/users';
 import { Asset } from 'expo-asset';
 import { Stack, useRouter } from 'expo-router';
 import { doc, onSnapshot } from 'firebase/firestore';
-import { refreshCurrentUserStreak } from '@/src/firebase/users';
 import React, { useEffect, useState } from 'react';
 import { Image, Pressable, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import ViewShot from 'react-native-view-shot';
-import monstera from '../assets/images/desk/Desk-monstera.png';
+import monstera from '../assets/images/desk/desk-monstera.png';
 import info from '../assets/images/info.png';
 import { NavButton } from '../components/buttons/navButtons';
 import { DragItem } from '../components/drag-items';
@@ -52,7 +52,7 @@ const DeskScreen = ({ onSnapshotUpdate }) => {
 
     // load journal image into cache for smoother performance when opening journal modal
     useEffect(() => {
-    Asset.loadAsync(require("../assets/images/Journal-export.png"));
+    Asset.loadAsync(require("../assets/images/journal-export.png"));
     Asset.loadAsync(require("../assets/journal-tabs/entry-tab.png"));
     Asset.loadAsync(require("../assets/journal-tabs/past-tab.png"));
     Asset.loadAsync(require("../assets/journal-tabs/stickers-tab.png"));
