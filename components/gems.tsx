@@ -1,8 +1,8 @@
-import React, {useEffect, useState } from 'react';
-import { Image, StyleSheet, Text, View } from 'react-native';
-import gemIcon from '../assets/images/Diamond-red.png';
 import { auth } from '@/src/firebase/config';
 import { subscribeToUser } from '@/src/firebase/users';
+import React, { useEffect, useState } from 'react';
+import { Image, StyleSheet, Text, View } from 'react-native';
+import gemIcon from '../assets/images/diamond-red.png';
 
 const Gems = () => {
   const [gems, setGems] = useState(0);

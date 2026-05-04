@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import inventory from '../assets/images/inventoryIcon.png';
+import inventory from '../assets/images/inventoryicon.png';
 import check from '../assets/images/v.png';
 import x from '../assets/images/x.png';
 

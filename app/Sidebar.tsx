@@ -3,10 +3,10 @@ import { useRouter } from "expo-router";
 import { doc, onSnapshot } from "firebase/firestore";
 import React, { useEffect, useState } from "react";
 import {
-    Image,
-    Text,
-    TouchableOpacity,
-    View
+  Image,
+  Text,
+  TouchableOpacity,
+  View
 } from "react-native";
 import { Drawer } from "react-native-drawer-layout";
 
@@ -68,7 +68,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ children }) => {
       {/* currentStreak display */}
       <View className="absolute top-[315px] left-24 flex-row items-center">
         <Image
-            source={require("../assets/images/Star.png")}
+            source={require("../assets/images/star.png")}
             className="w-7 h-7"
             resizeMode="contain"
         />

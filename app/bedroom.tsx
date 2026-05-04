@@ -19,7 +19,7 @@ import {
 import ViewShot from "react-native-view-shot";
 import bookshelf from "../assets/images/bedroom/br-bookshelf-plain.png";
 import floor from "../assets/images/bedroom/br-floor-wood-light.png";
-import plainBed from "../assets/images/bedroom/plain-bed.png";
+import plainBed from "../assets/images/bedroom/br-plain-bed.png";
 import info from "../assets/images/info.png";
 import { NavButton } from "../components/buttons/navButtons";
 import { DragItem } from "../components/drag-items";

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image, Pressable, StyleSheet } from 'react-native';
-import emptyHeart from '../assets/images/Empty-heart.png';
-import filledHeart from '../assets/images/Heart.png';
+import emptyHeart from '../assets/images/empty-heart.png';
+import filledHeart from '../assets/images/heart.png';
 
 const FavoriteButton = ({ favorited, onPress }) => {
 

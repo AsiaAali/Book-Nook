@@ -3,7 +3,7 @@ import CustomHeader from '@/components/banner';
 import ViewBook from '@/components/library-book-info';
 import React, { useMemo, useState } from 'react';
 import { Dimensions, Image, Modal, Pressable, ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
-import plusIcon from '../assets/images/plusIcon.png';
+import plusIcon from '../assets/images/plusicon.png';
 
 const Library = () => {
 

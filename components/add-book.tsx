@@ -2,8 +2,8 @@ import DateTimePicker from '@react-native-community/datetimepicker';
 import { Checkbox } from 'expo-checkbox';
 import React, { useEffect, useState } from 'react';
 import { Alert, Dimensions, Image, Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
-import starFilled from '../assets/images/starFilled.png';
-import starOutline from '../assets/images/starOutline.png';
+import starFilled from '../assets/images/starfilled.png';
+import starOutline from '../assets/images/staroutline.png';
 import x from '../assets/images/x.png';
 
 const AddBook = ({ setBook, onClose }) => { 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
-import star from '../assets/images/goalStar.png';
+import star from '../assets/images/goalstar.png';
 
 const Goal = ({ name }) => {
 

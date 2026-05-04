@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { Dimensions, Image, Pressable, StyleSheet, Text, View } from 'react-native';
-import starFilled from '../assets/images/starFilled.png';
-import starOutline from '../assets/images/starOutline.png';
+import starFilled from '../assets/images/starfilled.png';
+import starOutline from '../assets/images/staroutline.png';
 import x from '../assets/images/x.png';
 
 const ViewBook = ({ title, startDate, finishDate, status, onClose, rating }) => { 
