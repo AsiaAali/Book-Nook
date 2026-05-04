@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Image, Pressable, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import backArrow from '../assets/images/Arrow-left-circle.png';
-import gemIcon from '../assets/images/Diamond-red.png';
+import backArrow from '../assets/images/arrow-left-circle.png';
+import gemIcon from '../assets/images/diamond-red.png';
 import { imageMap } from "../scripts/image-map";
 import FavoriteButton from './favorite-btn';
 
